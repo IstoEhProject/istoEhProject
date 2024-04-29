@@ -16,6 +16,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
+import Link from "next/link";
 import * as React from "react";
 import styled from "styled-components";
 
@@ -132,12 +133,7 @@ const Sidebar = () => {
         boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.1)",
       }}
     >
-      <Box
-        width="100%"
-        height={80}
-        display={"flex"}
-        alignItems={"center"}
-      >
+      <Box width="100%" height={80} display={"flex"} alignItems={"center"}>
         <Avatar
           alt="Remy Sharp"
           src="/static/images/avatar/1.jpg"
@@ -161,9 +157,11 @@ const Sidebar = () => {
         </IconButton>
       </Tooltip>
       <Tooltip title="Quartos" placement="right">
-        <IconButton size="large">
-          <BedroomChildIcon fontSize="large" />
-        </IconButton>
+        <Link href="/modules/quartos">
+          <IconButton size="large">
+            <BedroomChildIcon fontSize="large" />
+          </IconButton>
+        </Link>
       </Tooltip>
       <Tooltip title="Entradas" placement="right">
         <IconButton size="large">

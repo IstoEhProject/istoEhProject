@@ -11,6 +11,7 @@ export const Container = styled.div`
   align-items: center;
 `;
 
+
 export const Content = styled.div`
   display: flex;
   align-items: center;
