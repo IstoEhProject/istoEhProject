@@ -87,6 +87,12 @@ export default function Quartos() {
           <CardQuarto />
           <CardQuarto />
           <CardQuarto />
+          <CardQuarto />
+          <CardQuarto />
+          <CardQuarto />
+          <CardQuarto />
+          <CardQuarto />
+          <CardQuarto />
         </ContentQuartos>
       </Content>
     </Container>

@@ -36,6 +36,9 @@ export const ContentQuartos = styled.div`
   flex-wrap: wrap;
   gap: 20px;
 
+  // gap do conteudo para baixo
+  padding-bottom: 100px;
+
   //scroll
   overflow-y: auto;
   max-height: 100vh;
